@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body{
+    background-image: url('../port.o/fundo_2.jpg');
+    color: white;
+    padding-bottom: 10px;
+}
+
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.titulop{
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+    left: 700px;
+    color: silver;
+}
+.subt a{
+    font-size: 16px;
+    color: white;
+    font-weight: 450;
+    margin-left: 35px;
+    position: relative;
+    right: 1250px;
+    text-decoration: none;
+    transition: .5s;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.subt a:hover{
+    color: brown;
+}
+
+.pagini{
+    position: relative;
+    left: 800px;
+    top: 100px;
+    align-items: center;
+    padding: 0 10%
+}
+.sobre{
+    max-width: 650px;
+}
+.sobre h1{
+    font-size: 56px;
+    font-weight: 700;
+    color: lightseagreen;
+}
+.sobre h2{
+    font-size: 32px;
+    font-weight: 650;
+    color: wheat
+}
+
+.sobre li{
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 0 40px;
+}
+
+
+.lista{
+    position: relatives;
+    left: 700px;
+    top: 10px;
+    bottom: 150px
+
+}
+
+.desc{
+    top: 100px;
+    font-size: 18px;
+}
+
+#icones{
+    position: absolute;
+    bottom: 0px;
+    top: 390px;
+    left: 280px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+
+}
+
+#icones a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid lightseagreen;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: lightseagreen;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+#icones a:hover{
+    color:#081b29;
+}
+
+#icones a::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    background: lightseagreen
+ 
+}
+
+#icones a:hover::before{
+    width: 100%
+}
