@@ -31,6 +31,12 @@ a {
   color: #ffffff;
 }
 
+p {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
 nav {
   background-color: #5b2063;
   padding: 10px;
@@ -103,7 +109,7 @@ h2{
   background-color: transparent;
   width: 515px;
   height: 515px;
-  border: 1px solid #f1f1f1;
+  border: 0px solid #f1f1f1;
   perspective: 1000px;
 }
 
