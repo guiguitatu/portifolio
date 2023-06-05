@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+    color: white
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+}
+.italic-text {
+    color: white;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    background-image: url('../port.o/fundo_2.jpg');
+    padding-bottom: 5px;
+}
+.header-button-container {
+    margin-right: 70px;
+}
+
+.header-logo {
+    color: rgb(255, 87, 87);
+    font-family: IBM Plex Mono;
+    font-size: 36px;
+    margin-left: 70px;
+    text-decoration: none;
+}
+
+.header-button {
+    margin-left: 15px;
+    padding: 6px 30px 6px 30px;
+    text-decoration: none;
+
+    color: white;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.header-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.55s;
+}
+
+.header-button:active {
+    background-color: rgb(154, 154, 154);
+    transition: 0.1s;
+}
+
+.linkpuc{
+    position: relative;
+    text-align: right;
+}
+
+.icones{
+    position: relative;
+    bottom: 0px;
+    top: 300px;
+    left: 866px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+
+}
+
+.icones a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid lightseagreen;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: lightseagreen;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+
+}
+
+.icones a:hover{
+    color:#081b29;
+}
+
+.icones a::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    background: lightseagreen
+ 
+}
+
+.icones a:hover::before{
+    width: 100%
+}
+
+.project-container{
+    text-align: center ;
+    position: relative;
+    top: 100px
+}
+
+#subt{
+    text-align: center;
+    padding-top: 3px;
+    position: relative;
+    top: 50px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+#nome{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 10px;
+
+}
+
+#nomeprojeto{
+    font-weight: 600;
+    text-align: center;
+}
+
+.sobre{
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    padding-top: 15px;
+}
