@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+
+}
+
+body {
+    margin: 0;
+    background-image: url('../port.o/fundo_5.jpg');
+}
+
+h1{
+    text-align: center;
+    font-weight: 800;
+    justify-content: space-between;
+    color: silver;
+    padding-top: 0px;
+    font-size: 32px;
+}
+
+.msg{
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    top:100px;
+    color: silver;
+    font-size: 18px
+
+}
+
+.telefone{
+    text-align: center;
+    font-weight: 800;
+    position: relative;
+    top: 150px;
+    color: silver;
+    font-size: 18px
+}
+
+.subt a{
+    font-size: 16px;
+    color: white;
+    font-weight: 450;
+    margin-left: 35px;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    font-family: sans-serif;
+    font-style: italic;
+    right: 1000px;
+
+
+}
+
+.subt a:hover{
+    color: brown;
+}
+
+header{
+    top: 0;
+
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulop{
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+    left: 700px;
+    color: silver;
+
+}

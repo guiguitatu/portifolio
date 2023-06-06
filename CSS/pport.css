@@ -5,73 +5,10 @@
     color: white
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 10%;
-}
-.italic-text {
-    color: white;
-    font-style: italic;
-}
-
 body {
     margin: 0;
-    background-image: url('../port.o/fundo_2.jpg');
+    background-image: url('../port.o/fundo_5.jpg');
     padding-bottom: 5px;
-}
-.header-button-container {
-    margin-right: 70px;
-}
-
-.header-logo {
-    color: rgb(255, 87, 87);
-    font-family: IBM Plex Mono;
-    font-size: 36px;
-    margin-left: 70px;
-    text-decoration: none;
-}
-
-.header-button {
-    margin-left: 15px;
-    padding: 6px 30px 6px 30px;
-    text-decoration: none;
-
-    color: white;
-    font-size: 18px;
-    font-family: Roboto;
-    font-weight: 500;
-
-    background-color: transparent;
-    border: solid;
-    border-color: white;
-    border-width: 1px;
-    border-radius: 15px;
-    cursor: pointer;
-}
-
-.header-button a {
-    text-decoration: none;
-    color: white;
-}
-
-.header-button:hover {
-    background-color: white;
-    color: black;
-    transition: 0.55s;
-}
-
-.header-button:active {
-    background-color: rgb(154, 154, 154);
-    transition: 0.1s;
 }
 
 .linkpuc{
@@ -82,12 +19,13 @@ body {
 .icones{
     position: relative;
     bottom: 0px;
-    top: 300px;
+    top: 200px;
     left: 866px;
     width: 170px;
     display: flex;
     justify-content: space-between;
     padding-left: 5px;
+    padding-top: 0px ;
 
 }
 
@@ -129,10 +67,12 @@ body {
     width: 100%
 }
 
-.project-container{
+.project{
     text-align: center ;
     position: relative;
-    top: 100px
+    top: 50px;
+    justify-content: space-between;
+
 }
 
 #subt{
@@ -147,18 +87,62 @@ body {
 #nome{
     text-align: center;
     font-weight: 700;
-    padding-top: 10px;
+    padding-top: 50px;
 
 }
 
-#nomeprojeto{
-    font-weight: 600;
-    text-align: center;
-}
 
 .sobre{
     text-align: center;
     font-weight: 600;
     font-style: italic;
     padding-top: 15px;
+}
+
+
+
+.nomeprojeto{
+    font-weight: 700;
+    justify-content: center;
+    padding: 5px;
+}
+
+.subt a{
+    font-size: 16px;
+    color: white;
+    font-weight: 450;
+    margin-left: 35px;
+    position: relative;
+    text-decoration: none;
+    transition: .5s;
+    font-family: sans-serif;
+    font-style: italic;
+    right: 1000px;
+
+
+}
+
+.subt a:hover{
+    color: brown;
+}
+
+header{
+    top: 0;
+
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.titulop{
+    font-size: 32px;
+    font-weight: 800;
+    position: relative;
+    left: 700px;
+    color: silver;
+
 }
