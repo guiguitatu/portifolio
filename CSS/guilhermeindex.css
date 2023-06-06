@@ -1,0 +1,122 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(2, 2, 49);
+  background:#e9c579;
+  justify-content: center;
+}
+
+header {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large
+}
+
+.fotoperfil{
+  border: 8px solid #866a36;
+  border-radius: 10000px;
+}
+
+h1 {
+  margin-top: 24px;
+  color: #fff; 
+}
+
+a {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.meio{
+  width: auto;
+  height: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnindex{
+  margin-left: 100px;
+  margin-bottom: 30px;
+  width: 500px;
+  height: 100px;
+  font-size: 30px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #ac8847;
+  color: white;
+  border-radius: 50px;
+  border: 3px solid #866a36;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 9px #94805b;
+}
+
+.btnindex {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #94805b;
+}
+
+.btnindex:hover {background-color: #9b7b3f}
+
+.btnindex:active {
+  background-color: #816634;
+  box-shadow: 0 5px #94805b;
+  transform: translateY(4px);
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 515px;
+  height: 515px;
+  border: 0px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
